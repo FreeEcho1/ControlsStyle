@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <PackageId>Controls Style</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>FreeEcho</Authors>
+    <Company>FreeEcho</Company>
+    <Product>Controls Style</Product>
+    <Copyright>© 2021 FreeEcho</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>Z:\AppDevelopment\Library\.Net\FreeEchoのUI\ControlsStyle\ControlsStyle\ControlsStyle.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>Z:\AppDevelopment\Library\.Net\FreeEchoのUI\ControlsStyle\ControlsStyle\ControlsStyle.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="FEControls">
+      <HintPath>..\..\FEControls\FEControls\bin\Debug\net5.0-windows\FEControls.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
