@@ -1,4 +1,4 @@
-﻿ControlsStyle
+# ControlsStyle
 
 使用は自由です。
 ライセンス表記などは不要です。
